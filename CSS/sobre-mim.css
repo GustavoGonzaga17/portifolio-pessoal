@@ -1,0 +1,27 @@
+.sobre-mim{
+    background-color: var(--cor-principal);
+    padding: 0 8em;
+}
+
+.sobre-mim__conteudo {
+    display: flex;
+    gap: 5em;
+    color: var(--cor-tercearia);
+    padding-bottom: 5em;
+}
+
+.conteudo__img-avatar {
+    width: 25em;
+    height: auto;
+    border-radius: 50px;
+}
+
+.conteudo__texto-titulo {
+    font-size: 1.5em;
+}
+
+.conteudo__texto-paragrafo {
+    padding: 1em 0;
+    line-height: 1.5;
+    text-align: justify;
+}

@@ -1,0 +1,61 @@
+.banner {
+    background-image: url(/Assets/Fundo\ Site.png);
+    background-position: bottom;
+}
+
+.menu, .texto {
+    filter: brightness(100%);
+}
+
+.texto {
+    padding: 10em 20em;
+    color: var(--cor-quartenaria);
+    text-align: center;
+    color: white;
+}
+
+.texto__titulo {
+    font-size: 2.5em;
+    font-weight: 500;
+}
+
+.texto-destaque {
+    color: var(--cor-principal);
+    background-color: var(--cor-tercearia);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.texto__subtitulo {
+    line-height: 1.5;
+    font-size: 1em;
+}
+
+/*----------MENU----------*/
+.menu {
+    padding: 1.5em;
+}
+
+.menu, .menu__nav__list {
+    display: flex;
+    justify-content: center;
+}
+
+.menu__nav__list {
+    gap: 1em;
+}
+
+.menu__nav__list__item {
+    padding: 0.5em;
+}
+
+.menu__nav__list__item__link {
+    color: var(--cor-quartenaria);
+    padding: 0.5em;
+    border-radius: 10px;
+}
+
+.menu__nav__list__item__link:hover {
+    background-color: var(--cor-tercearia);
+    color: var(--cor-principal);
+}

@@ -1,0 +1,30 @@
+@import url(/CSS/reset.css);
+@import url(/CSS/banner.css);
+@import url(/CSS/sobre-mim.css);
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+:root {
+    --cor-principal: #2B580C;
+    --cor-secundaria: #639A67;
+    --cor-tercearia: #D8EBB5;
+    --cor-quartenaria: #D9BF77;
+    --fonte-principal: "Fredoka", sans-serif;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.titulo-sessão {
+    font-size: 3em;
+    font-weight: 500;
+    text-align: center;
+    padding: 1em 0;
+    color: var(--cor-quartenaria);
+}
