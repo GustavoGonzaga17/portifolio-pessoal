@@ -1,0 +1,45 @@
+.curriculo {
+    padding: 0 8em;
+}
+
+.subtitulo {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--cor-principal);
+}
+
+.experiencias, .formacao {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 15px
+}
+
+.box-experiencia, .box-formacao {
+    border: solid 1px black;
+    border-radius: 10px;
+    width: 20em;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.box-experiencia__logo {
+    width: 18em;
+    margin: 0 auto;
+    display: flex;
+}
+
+#logo-ennet {
+    width: 10em;
+}
+
+.box-experiencia__cargo {
+    font-weight: 600;
+    text-align: center;
+}
+
+#logo-influx {
+    border-radius: 10px;
+}
